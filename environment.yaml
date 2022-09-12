@@ -1,0 +1,10 @@
+name: the_env
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.8.5
+  - pip
+  - pip:
+    - -e git+https://github.com/salesforce/BLIP --install-option=”--src repositories”
+
